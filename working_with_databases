@@ -1,0 +1,14 @@
+/* working with databases */
+
+/* list databases */
+SHOW DATABASES;
+
+/* create empty database */
+CREATE DATABASE <database_name or DatabaseName>;
+
+/* drop database */
+DROP DATABASE <existing database_name or DatabaseName>;
+
+
+
+

@@ -1,2 +1,1 @@
-# SQL
- 
+Basic SQL database commands 
