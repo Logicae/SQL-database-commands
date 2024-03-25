@@ -9,6 +9,7 @@ CREATE DATABASE <database_name or DatabaseName>;
 /* drop database */
 DROP DATABASE <existing database_name or DatabaseName>;
 
-
+/* use database */
+USE DATABASE <existing database_name or DatabaseName>;
 
 
