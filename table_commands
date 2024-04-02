@@ -1,2 +1,4 @@
 /* working with tables */
 
+/* setting variable character string with max of 50 characters */
+varchar(50)
