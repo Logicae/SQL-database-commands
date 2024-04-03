@@ -16,3 +16,6 @@ CREATE TABLE SoccerTeam (
 SHOW COLUMNS FROM SoccerTeam;
 /* or */
 DESC SoccerTeam;
+
+/* show tables in database */
+SHOW tables;
