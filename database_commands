@@ -1,20 +1,20 @@
-/* working with databases */
+-- working with databases
 
-/* terminate script with ;. */
+-- terminate script with ;.
 
-/* list databases */
+-- list databases
 SHOW DATABASES;
 
-/* create empty database */
+-- create empty database
 CREATE DATABASE <database_name or DatabaseName>;
 
-/* use database */
+-- use database
 USE DATABASE <existing database_name or DatabaseName>;
 
-/* drop database */
+-- drop database
 DROP DATABASE <existing database_name or DatabaseName>;
 
-/* return the name of current database */
+-- return the name of current database
 SELECT DATABASE();
 
 
