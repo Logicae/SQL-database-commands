@@ -11,3 +11,6 @@ CREATE TABLE SoccerTeam (
     Goals int, 
     Assists int
 ); 
+
+/* show columns from sample soccer table */
+SHOW COLUMNS FROM SoccerTeam;
