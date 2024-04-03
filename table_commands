@@ -14,3 +14,5 @@ CREATE TABLE SoccerTeam (
 
 /* show columns from sample soccer table */
 SHOW COLUMNS FROM SoccerTeam;
+/* or */
+DESC SoccerTeam;
