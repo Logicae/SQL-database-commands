@@ -22,3 +22,10 @@ SHOW TABLES;
 
 -- delete sample soccer table
 DROP TABLE SoccerTeam; 
+
+-- insert data into table
+INSERT INTO table(column, column) VALUES(value, value);
+
+-- insert data into sample soccer table
+INSERT INTO (FirstName, LastName, Position, Goals, Assists) 
+VALUES(Frank, Smith, forward, 10, 4);
