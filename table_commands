@@ -24,8 +24,27 @@ SHOW TABLES;
 DROP TABLE SoccerTeam; 
 
 -- insert data into table
-INSERT INTO table(column, column) VALUES(value, value);
+INSERT INTO table (column, column) VALUES (value, value);
+
+-- more complicated insert data into table with multiple rows
+INSERT INTO table (column, column) 
+VALUES  (value, value),
+        (value, value),
+        (value, value);
 
 -- insert data into sample soccer table
 INSERT INTO (FirstName, LastName, Position, Goals, Assists) 
-VALUES("Frank", "Smith", "forward", 10, 4);
+VALUES ('Frank', 'Smith', 'forward', 10, 4);
+
+-- more complicated insert data into table with multiple rows
+INSERT INTO table(FirstName, LastName, Position, Goals, Assists) 
+VALUES  ('Frank', 'Smith', 'forward', 10, 4),
+        ('Jim', 'Samson', 'defense', 1, 6),
+        ('Bill', 'Gruder', 'midfield', 7, 18);
+ 
+ -- more complicated insert data into sample soccer table
+ INSERT INTO 
+
+-- show data from sample soccer table
+SELECT * FROM SoccerTeam;
+
