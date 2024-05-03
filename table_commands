@@ -41,10 +41,8 @@ INSERT INTO table(FirstName, LastName, Position, Goals, Assists)
 VALUES  ('Frank', 'Smith', 'forward', 10, 4),
         ('Jim', 'Samson', 'defense', 1, 6),
         ('Bill', 'Gruder', 'midfield', 7, 18);
- 
- -- more complicated insert data into sample soccer table
- INSERT INTO 
 
 -- show data from sample soccer table
 SELECT * FROM SoccerTeam;
+
 
