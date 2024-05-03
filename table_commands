@@ -45,4 +45,9 @@ VALUES  ('Frank', 'Smith', 'forward', 10, 4),
 -- show data from sample soccer table
 SELECT * FROM SoccerTeam;
 
-
+-- disallow null values with sample table
+CREATE TABLE Chorus (
+    FirstName varchar(50) NOT NULL,
+    LastName varchar(50) NOT NULL,
+    Grade int NOT NULL
+);
